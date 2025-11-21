@@ -59,8 +59,8 @@ Before you begin, ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/web-safe-url-checker.git
-cd web-safe-url-checker
+git clone https://github.com/prateek-chaubey/WebSafe.git
+cd WebSafe
 ```
 
 ### Install Dependencies
