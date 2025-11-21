@@ -36,7 +36,7 @@ Check out the live demo: **[https://websafe-6qzg.onrender.com](https://websafe-6
 
 | Safe URL Detection | Malicious URL Warning |
 |:------------------:|:---------------------:|
-| ![Safe URL](https://via.placeholder.com/400x250/00FF88/000000?text=Safe+URL+✓) | ![Malicious URL](https://via.placeholder.com/400x250/FF0044/FFFFFF?text=Malicious+URL+⚠) |
+| ![Safe URL](./safe.jpg) | ![Malicious URL](./malicious.jpg) |
 
 </div>
 
