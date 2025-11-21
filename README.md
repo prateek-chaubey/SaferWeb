@@ -28,7 +28,7 @@
 
 ## Demo
 
-Check out the live demo: **[websafe.example.com](https://websafe.example.com)**
+Check out the live demo: **[https://websafe-6qzg.onrender.com](https://websafe-6qzg.onrender.com)**
 
 ### Screenshots
 
@@ -125,7 +125,7 @@ http://localhost:3000
 
 | Setting | Value |
 |---------|-------|
-| **Name** | web-safe-url-checker |
+| **Name** | WebSafe |
 | **Environment** | Node |
 | **Build Command** | `npm install` |
 | **Start Command** | `npm start` |
