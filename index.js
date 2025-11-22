@@ -2,20 +2,10 @@ const express = require("express");
 const puppeteer = require("puppeteer-core");
 const chrome = require("@sparticuz/chromium");
 const path = require('path');
-const cors = require("cors");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 const fetch = global.fetch;
 
 const app = express();
-
-app.use(
-  cors({
-    origin: "https://prateek.is-a.dev",   
-    methods: "GET",
-    allowedHeaders: "Content-Type,Authorization",
-    credentials: true,
-  })
-);
 
 app.get("/safety", async (req, res) => {
   const safeBrowsingApiUrl = `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${process.env.SAFE_BROWSING_API_KEY}`;
