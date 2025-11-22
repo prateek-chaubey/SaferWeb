@@ -1,7 +1,7 @@
 {
-  "name": "WebSafe",
+  "name": "SaferWeb",
   "version": "1.0.0",
-  "description": "Web Safe is a comprehensive URL security checker that detects malicious URLs, phishing attempts, malware threats, captures website screenshots, expands shortened URLs, and provides proxified access to websites. Built with Express, Puppeteer, and Google Safe Browsing API.",
+  "description": "Safer Web is a comprehensive URL security checker that detects malicious URLs, phishing attempts, malware threats, captures website screenshots, expands shortened URLs, and provides proxified access to websites. Built with Express, Puppeteer, and Google Safe Browsing API.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -37,17 +37,18 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prateek-chaubey/WebSafe"
+    "url": "https://github.com/prateek-chaubey/SaferWeb"
   },
   "bugs": {
-    "url": "https://github.com/prateek-chaubey/WebSafe/issues"
+    "url": "https://github.com/prateek-chaubey/SaferWeb/issues"
   },
-  "homepage": "https://github.com/prateek-chaubey/WebSafe#readme",
+  "homepage": "https://github.com/prateek-chaubey/SaferWeb#readme",
   "dependencies": {
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6",
     "puppeteer-core": "^21.11.0",
-    "@sparticuz/chromium": "^121.0.0"
+    "@sparticuz/chromium": "^121.0.0",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
