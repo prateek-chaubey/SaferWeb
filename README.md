@@ -59,8 +59,8 @@ Before you begin, ensure you have the following installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/prateek-chaubey/WebSafe.git
-cd WebSafe
+git clone https://github.com/prateek-chaubey/SaferWeb.git
+cd SaferWeb
 ```
 
 ### Install Dependencies
@@ -125,7 +125,7 @@ http://localhost:3000
 
 | Setting | Value |
 |---------|-------|
-| **Name** | WebSafe |
+| **Name** | SaferWeb |
 | **Environment** | Node |
 | **Build Command** | `npm install` |
 | **Start Command** | `npm start` |
